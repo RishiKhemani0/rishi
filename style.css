@@ -232,6 +232,7 @@ hr {
 @media (max-width : 1270px){
   .title{
     font-size: 10vh;
+    text-align: center;
   }
   .ban{
     margin: 5vh;
@@ -308,6 +309,12 @@ hr {
   }
 }
 
+@media (max-width : 770px){
+  .title{
+    font-size: 12vh;
+  }
+}
+
 @media (max-width : 570px){
   .nav{
     visibility: unset;
@@ -317,4 +324,8 @@ hr {
     width: 80vw;
   }
 
+  .nav{
+    visibility: hidden;
+    top: 50px;
+  }
 }
